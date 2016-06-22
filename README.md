@@ -14,9 +14,9 @@ gdc::nanoq_heap_factory<int> factory(32);
 // Get the queue from the factory.
 gdc::nanoq<int>& q = factory.get();
 
+// Produce in one thread.
 q.push_back(42);
-std::cout << q.front() << std::endl;
 
-// The above program prints:
-// 42
+// Consume in another thread.
+std::cout << q.front() << std::endl;
 ```
