@@ -24,16 +24,11 @@
 
 /* Begin PBXFileReference section */
 		6E05B8361CE803690062D8F7 /* nanoq.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = nanoq.hpp; sourceTree = "<group>"; };
-		6E1ADE7D1CEBFF8C001AEDB6 /* sub.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sub.mk; sourceTree = "<group>"; };
 		6EFB05441CE3EBDC00843F78 /* unit_tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = unit_tests; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFB054C1CE3EC1B00843F78 /* unit_tests.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unit_tests.cpp; sourceTree = "<group>"; };
 		6EFB054E1CE3EC4D00843F78 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		6EFB054F1CE3EC4D00843F78 /* main.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.mk; sourceTree = "<group>"; };
-		6EFB05501CE3EC4D00843F78 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		6EFB05511CE3EC4D00843F78 /* Makefile.boilermake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.boilermake; sourceTree = "<group>"; };
 		6EFB05531CE3EC6400843F78 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6EFB05571CE41E1000843F78 /* catch.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
-		6EFB05581CE41E1000843F78 /* sub.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sub.mk; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +63,6 @@
 			children = (
 				6EFB05531CE3EC6400843F78 /* README.md */,
 				6EFB054E1CE3EC4D00843F78 /* LICENSE */,
-				6EFB05511CE3EC4D00843F78 /* Makefile.boilermake */,
-				6EFB05501CE3EC4D00843F78 /* Makefile */,
-				6EFB054F1CE3EC4D00843F78 /* main.mk */,
-				6E1ADE7D1CEBFF8C001AEDB6 /* sub.mk */,
 				6E05B8341CE803690062D8F7 /* include */,
 				6EFB05461CE3EBDC00843F78 /* unit_tests */,
 				6EFB05451CE3EBDC00843F78 /* Products */,
@@ -89,7 +80,6 @@
 		6EFB05461CE3EBDC00843F78 /* unit_tests */ = {
 			isa = PBXGroup;
 			children = (
-				6EFB05581CE41E1000843F78 /* sub.mk */,
 				6EFB05571CE41E1000843F78 /* catch.hpp */,
 				6EFB054C1CE3EC1B00843F78 /* unit_tests.cpp */,
 			);
